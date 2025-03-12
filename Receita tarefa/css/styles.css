@@ -1,0 +1,23 @@
+:root {
+    --amarelo-texto-color: #d3d300;
+    --ciano-texto-color: #009b9b;
+
+}
+
+h2 {
+    background-color: yellow; 
+    margin-block-start: 0em; 
+    padding-block-start: 0em;
+}
+
+.ingredientes {
+    font-size: 18px;
+}
+
+.peixes {
+    color: var(--ciano-texto-color);
+}
+
+.banana {
+    color: var(--amarelo-texto-color);
+}
