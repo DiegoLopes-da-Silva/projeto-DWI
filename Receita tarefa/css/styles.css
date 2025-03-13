@@ -14,10 +14,18 @@ h2 {
     font-size: 18px;
 }
 
-.peixes {
+.peixe {
     color: var(--ciano-texto-color);
 }
 
 .banana {
     color: var(--amarelo-texto-color);
+}
+
+.preparo {
+    padding: 0.5em 0em 0.5em 0em
+
+}
+
+.fonte {
 }
