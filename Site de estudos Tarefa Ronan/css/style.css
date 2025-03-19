@@ -35,10 +35,11 @@ color: var(--text-color);
 }
 
 .cards {
-display: flex;
+display: grid;
 justify-content: center;
 gap: 1rem;
 padding: 2rem;
+grid-template-columns: repeat(3, 1fr);
 }
 
 
@@ -47,8 +48,15 @@ background-color: var(--footer-bg);
 padding: 1rem;
 border-radius: 8px;
 width: 400px;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
 
+.card__inferior {
+    padding: 1rem;
+    background-color: var(--footer-bg);
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 footer {
