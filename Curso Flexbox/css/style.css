@@ -330,10 +330,11 @@ img {
 /*Newsletter*/
 
 .newsletter {
-    background: #8d91ca;
     padding: 60px calc((100% - 960px) / 2);
     display: flex;
     flex-wrap: wrap;
+    background: #565a75;
+    color: white;
 }
 
 .newsletter-info {
@@ -343,14 +344,14 @@ img {
 
 .newsletter-info h1 {
     font-size: 3em;
-    color: #0f0f1b;
+    color: white;
 }
 
 .newsletter-info p {
     font-size: 1.25em;
     font-style: italic;
     max-width: 230px;
-    color: #565a75;
+    color: #1b2252;
     margin-bottom: 10px;
 }
 
@@ -399,7 +400,8 @@ img {
 
 .footer {
     display: flex;
-    background: #fafbf6;
+    background: #000000;
+    color: white;
     height: 200px;
     align-items: center;
     flex-wrap: wrap;
@@ -409,5 +411,5 @@ img {
     flex: 1;
     text-align: center;
     font-size: 2.25em;
-    color: #0f0f1b;
+    color: white
 }
